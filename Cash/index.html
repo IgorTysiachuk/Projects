@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Cash</title>
+</head>
+<body>
+    <div class="block">
+        <div class="block_btns">
+            <div id="earnBtn" class="block_btns_item">
+                <img class="block_btns_item_svg" src="./img/plus.svg" alt="">
+                <p class="block_btns_item_p1">Add earn</p>
+            </div>
+            <div id="spendBtn" class="block_btns_item">
+                <img class="block_btns_item_svg" src="./img/plus.svg" alt="">
+                <p class="block_btns_item_p1">Add spend</p>
+            </div>
+        </div>
+        <div id="table" class="block_table">
+            <!-- <div class="block_table_earn">
+                <p class="block_table_earn_p1">+ 123$</p>
+                <img id="delete" class="block_table_earn_delete" src="./img/delete.svg" alt="">
+            </div>
+            <p class="none"></p>
+            <div class="block_table_spend">
+                <p class="block_table_spend_p1">- 123$</p>
+            </div> -->
+        </div>
+        <div class="block_cash">
+            <p id="total" class="block_cash_p1">Total cash: 0 ₴</p>
+        </div>
+    </div>
+    <div class="cardspend none">
+        <div class="cardearn_block">Add spend</div>
+        <div class="cardearn_btns">
+            <input id="valueS" class="cardearn_btns_input" type="number" placeholder="Sum">
+            <div id="sumbitS" class="cardearn_btns_item">Sumbit</div>
+        </div>
+        <img id="crossS" class="cross" src="./img/plus.svg" alt="">
+    </div>
+    <div class="cardearn none">
+        <div class="cardearn_block">Add earn</div>
+        <div class="cardearn_btns">
+            <input id="valueE" class="cardearn_btns_input" type="number" placeholder="Sum">
+            <div id="sumbitE" class="cardearn_btns_item">Sumbit</div>
+        </div>
+        <img id="crossE" class="cross" src="./img/plus.svg" alt="">
+    </div>
+    
+    <div class="place none"></div>
+    <script src="script.js"></script>
+</body>
+</html>
